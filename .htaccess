@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^api/komik-info api/komik/chapter-info.php
+RewriteRule ^api/cari api/komik/cari-komik.php
+RewriteRule ^api/baca api/komik/chapter-detail.php
+RewriteRule ^api/populer api/komik/komik-pop.php
+RewriteRule ^api/genre api/komik/cari-by-genre.php
+RewriteRule ^api/recomended api/komik/komik-recomended.php
+RewriteRule ^api/list-genre api/komik/genre.php
